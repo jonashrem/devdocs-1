@@ -264,7 +264,7 @@ With Shopware 5.3 it is possible to use [redis](https://redis.io/) as cache adap
                 'host' => '127.0.0.1',
                 'port' => 6379,
                 'dbindex' => 0,
-                'redisAuth' => ''
+                'redisAuth' => '<password>' //remove this line, when redis has no password.
             ],
         ],
     ],
